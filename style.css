@@ -1,1 +1,123 @@
+html {
+  background-color: rgb(255, 255, 255);
+}
 
+nav {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  z-index: 1;
+  box-shadow: 0 0 10px black;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  /* z-index: -1; taken out because it made form field unusable, setting header and footer z-index: 1*/
+  min-height: max-content;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  padding: 85px 50px 200px 50px;
+  margin: 0 200px 0 200px;
+  box-shadow: 12px black;
+  position: relative;
+  box-shadow: 0 0 25px 10px rgb(99, 99, 99);
+}
+
+main > img {
+  width: 300px;
+  float: right;
+  position: relative;
+  right: 0;
+  margin: 10px 10px 40px 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  height: 70px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+}
+
+.media {
+  height: 50px;
+  margin: 0 25px;
+  border-radius: 10px;
+}
+
+/* about section */
+
+.aboutHeader {
+  border-top: 3px solid rgb(165, 165, 165);
+  padding: 30px 0 0 15px;
+}
+
+.aboutImg {
+  height: 200px;
+  float: left;
+  position: relative;
+  margin: 0 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.aboutImg2 {
+  height: 200px;
+  float: right;
+  position: relative;
+  margin: 0 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.aboutInfo {
+  text-align: center;
+  position: relative;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+/* portfolio section */
+
+.projectHeader {
+  border-bottom: 3px solid rgb(165, 165, 165);
+  padding: 0 0 10px 15px;
+}
+
+.projectBox {
+  font-size: -2em;
+  border-radius: 10px;
+  background-color: gray;
+  color: rgb(0, 0, 0);
+  margin: 2em;
+  position: relative;
+  padding-bottom: 100px;
+  box-shadow: 12px black;
+}
+
+.projectImg {
+  width: 230px;
+  border: 2px solid black;
+  border-radius: 10px;
+  float: right;
+  position: relative;
+  margin: 0 15px;
+}
+
+.projectPar {
+  margin-left: 10px;
+}
